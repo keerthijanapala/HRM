@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Functional testing">
+   <groups>
+        <run>
+        <include name="sanity"/>
+        <exclude name="integration"/>
+        </run>
+      </groups> 
+    <classes>
+      <class name="hrm.com.testscripts.TC001"/>
+      <class name="hrm.com.testscripts.TC002softAssert"/>
+      <class name="hrm.com.testscripts.TC003"/>  
+      <class name="hrm.com.testscripts.TC006"/>  
+    </classes>
+  </test> <!-- Test -->
+   <test thread-count="5" name="Smoke testing">
+   <classes>
+  <class name="hrm.com.testscripts.TC004"/>      
+  <class name="hrm.com.testscripts.TC005"/>
+  </classes>
+  </test>
+</suite> <!-- Suite -->

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/keerthij/KEERTHI/LiveTech Selenium Software/Jar-Files/selenium-server-standalone-3.141.59.jar" sourcepath="/DranNDrop"/>
+	<classpathentry kind="lib" path="C:/Users/keerthij/KEERTHI/LiveTech Selenium Software/Jar-Files/jar_files (2)/testng-7.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/keerthij/KEERTHI/LiveTech Selenium Software/Drivers/geckodriver-v0.26.0-win64.zip"/>
+	<classpathentry kind="lib" path="C:/screenshot jars/poi jar/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/screenshot jars/poi jar/poi-3.10-FINAL.jar"/>
+	<classpathentry kind="lib" path="C:/screenshot jars/poi jar/poi-ooxml-3.10-FINAL.jar"/>
+	<classpathentry kind="lib" path="C:/screenshot jars/poi jar/poi-ooxml-schemas-3.10-FINAL.jar"/>
+	<classpathentry kind="lib" path="C:/screenshot jars/poi jar/xmlbeans-2.3.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
